@@ -81,24 +81,24 @@ export default function Index() {
 
       {/* Bottom Navigation */}
       <div className="bg-white rounded-t-3xl shadow-lg p-6 flex justify-around items-center">
-        <button className="flex flex-col items-center space-y-2">
-          <div className="w-12 h-12 bg-gray-100 rounded-2xl flex items-center justify-center">
-            <Home className="w-6 h-6 text-gray-400" />
+        <Link to="/" className="flex flex-col items-center space-y-2">
+          <div className="w-12 h-12 bg-blue-100 rounded-2xl flex items-center justify-center">
+            <Home className="w-6 h-6 text-blue-500" />
           </div>
-          <span className="text-xs text-gray-400 font-medium">HOME</span>
-        </button>
+          <span className="text-xs text-blue-500 font-medium">HOME</span>
+        </Link>
 
         {/* Center Chat Icon */}
         <div className="w-16 h-16 bg-game-balance rounded-2xl flex items-center justify-center shadow-lg">
           <div className="text-2xl">💬</div>
         </div>
 
-        <button className="flex flex-col items-center space-y-2">
+        <Link to="/profile" className="flex flex-col items-center space-y-2">
           <div className="w-12 h-12 bg-gray-100 rounded-2xl flex items-center justify-center">
             <User className="w-6 h-6 text-gray-400" />
           </div>
           <span className="text-xs text-gray-400 font-medium">PROFILE</span>
-        </button>
+        </Link>
       </div>
     </div>
   );
