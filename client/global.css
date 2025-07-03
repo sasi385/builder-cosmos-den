@@ -54,6 +54,14 @@
     --sidebar-border: 220 13% 91%;
 
     --sidebar-ring: 217.2 91.2% 59.8%;
+
+    /* Game-specific colors from Figma design */
+    --game-yellow: 45 92% 64%;
+    --game-green: 151 45% 64%;
+    --game-red: 10 100% 64%;
+    --game-blue: 225 100% 70%;
+    --game-bg: 240 15% 95%;
+    --game-balance: 35 100% 55%;
   }
 
   .dark {
