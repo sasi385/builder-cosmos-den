@@ -38,43 +38,41 @@ export default function Index() {
       </div>
 
       {/* Main Progression Area */}
-      <div className="flex-1 flex flex-col items-center justify-center px-8 py-12">
-        <div className="relative flex flex-col items-center space-y-8">
+      <div className="flex-1 flex flex-col items-center justify-center px-8 py-8">
+        <div className="relative flex flex-col items-center space-y-6">
           {/* Yellow Circle */}
           <div className="relative">
-            <div className="w-32 h-32 bg-game-yellow rounded-full flex items-center justify-center shadow-xl border-4 border-white">
-              <Lock className="w-12 h-12 text-white" strokeWidth={3} />
+            <div className="w-36 h-36 bg-game-yellow rounded-full flex items-center justify-center shadow-2xl border-8 border-white">
+              <Lock className="w-14 h-14 text-white" strokeWidth={2.5} />
             </div>
           </div>
 
           {/* Connector Triangle */}
-          <div className="w-0 h-0 border-l-4 border-r-4 border-t-8 border-l-transparent border-r-transparent border-t-green-400"></div>
+          <div className="w-0 h-0 border-l-6 border-r-6 border-t-8 border-l-transparent border-r-transparent border-t-green-400"></div>
 
           {/* Green Circle */}
           <div className="relative">
-            <div className="w-32 h-32 bg-game-green rounded-full flex items-center justify-center shadow-xl border-4 border-white">
-              <Lock className="w-12 h-12 text-white" strokeWidth={3} />
+            <div className="w-36 h-36 bg-game-green rounded-full flex items-center justify-center shadow-2xl border-8 border-white">
+              <Lock className="w-14 h-14 text-white" strokeWidth={2.5} />
             </div>
           </div>
 
           {/* Connector Triangle */}
-          <div className="w-0 h-0 border-l-4 border-r-4 border-t-8 border-l-transparent border-r-transparent border-t-red-400"></div>
+          <div className="w-0 h-0 border-l-6 border-r-6 border-t-8 border-l-transparent border-r-transparent border-t-red-400"></div>
 
           {/* Red Circle */}
           <div className="relative">
-            <div className="w-32 h-32 bg-game-red rounded-full flex items-center justify-center shadow-xl border-4 border-white">
-              <Lock className="w-12 h-12 text-white" strokeWidth={3} />
+            <div className="w-36 h-36 bg-game-red rounded-full flex items-center justify-center shadow-2xl border-8 border-white">
+              <Lock className="w-14 h-14 text-white" strokeWidth={2.5} />
             </div>
           </div>
 
           {/* Connector Triangle */}
-          <div className="w-0 h-0 border-l-4 border-r-4 border-t-8 border-l-transparent border-r-transparent border-t-blue-400"></div>
+          <div className="w-0 h-0 border-l-6 border-r-6 border-t-8 border-l-transparent border-r-transparent border-t-blue-400"></div>
 
-          {/* Blue Circle */}
+          {/* Blue Circle - No lock icon as in design */}
           <div className="relative">
-            <div className="w-32 h-32 bg-game-blue rounded-full flex items-center justify-center shadow-xl border-4 border-white">
-              <Lock className="w-12 h-12 text-white" strokeWidth={3} />
-            </div>
+            <div className="w-36 h-36 bg-game-blue rounded-full flex items-center justify-center shadow-2xl border-8 border-white"></div>
           </div>
         </div>
       </div>
