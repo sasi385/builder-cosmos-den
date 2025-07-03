@@ -57,6 +57,14 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        game: {
+          yellow: "hsl(var(--game-yellow))",
+          green: "hsl(var(--game-green))",
+          red: "hsl(var(--game-red))",
+          blue: "hsl(var(--game-blue))",
+          bg: "hsl(var(--game-bg))",
+          balance: "hsl(var(--game-balance))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
